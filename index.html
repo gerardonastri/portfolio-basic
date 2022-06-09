@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerardo Nastri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://cdn2.iconfinder.com/data/icons/interface-part-1/32/html-code-512.png" alt="logo">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">My services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#work">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Gerardo Nastri</strong> </h1>
+            
+            <p class="section__subtitle section__subtitle--intro" >full stack dev</p>
+            <img class="intro__img" src="https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png" alt="">
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Frontend Deveolopment</h3>
+                <p>Design e programmazione della parte front end, con HTML, CSS, JavaScript, e framework come React.js e Next.js</p>
+            </div>
+
+            <div class="service">
+                <h3>Backend Development</h3>
+                <p>Codifica delll’architettura dei siti web, le API e gli script, e l’integrazione tra le richieste del front end e i dati contenuti nel database</p>
+            </div>
+
+            <div class="service">
+                <h3>Databases</h3>
+                <p>Design e impostazione dei database SQL con MySql e noSQL con mongoDB e mongoose</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section_title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Full Stack Web Developer From Salerno</p>
+
+        <div class="about-me__body">
+            <p>Sono uno studente di un istituto informatico, ho iniziato a programmare circa 2 anni fa, ho seguito corsi su udemy e altri siti, imparando quindi da autodidatta.</p>
+            <p>Ho una buona conoscenze dell'informatica generale, e in particolare come linguaggi di programmazione uso per il frontend HTMl, CSS, JS, React.js, Next.js; per il backend: node.js, python, php e per il databases MySQl e MongoDB</p>
+        </div>
+
+        <img src="https://cutewallpaper.org/21/programmer-wallpaper-hd/Programming-wallpapers-1920x1080-Full-HD-1080p-desktop-.jpg" alt="" class="about-me__img">
+    </section>
+
+    <!--Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+
+        <div class="portfolio">
+            <a href="https://jer-boking.vercel.app/" class="portfolio__item" target="_blank">
+                <img src="./booking.png" class="portfolio__img" alt="">
+            </a>
+
+            <a href="https://modern-ecommerce-lovat.vercel.app/" class="portfolio__item" target="_blank">
+                <img src="./modern-ecommerce.png" class="portfolio__img" alt="">
+            </a>
+            
+            <a href="https://gerardonastri.github.io/simply-recipes/index.html" class="portfolio__item"  target="_blank">
+                <img src="./simply-recipes.png" class="portfolio__img" alt="">
+            </a>
+            
+            <a href="https://jer-modern-blog.herokuapp.com/" class="portfolio__item"  target="_blank">
+                <img src="./blog.png" class="portfolio__img" alt="">
+            </a>
+            
+            <a href="https://gerardonastri.github.io/great-shoes/" class="portfolio__item"  target="_blank">
+                <img src="./great-shoes.png" class="portfolio__img" alt="">
+            </a>
+            
+            <a href="https://share-me-five.vercel.app/" class="portfolio__item"  target="_blank">
+                <img src="./share-me.png" class="portfolio__img" alt="">
+            </a>
+            
+          
+            
+          
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:gerardonastri.dev@gmail.com?subject=Mail" target="_blank" class="footer-link">gerardonastri@gmail.com</a>
+        <il class="social-list">
+            <li class="social-list__item"><a  class="social-link" href="https://www.linkedin.com/in/gerardo-nastri-55325b21b/"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-link" href="https://github.com/gerardonastri"  target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-link" href="https://www.instagram.com/_lil._.gerardo/"  target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="social-list__item"><a class="social-link" href="https://www.facebook.com/profile.php?id=100009579646708"  target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        </il>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
