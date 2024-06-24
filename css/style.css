@@ -186,7 +186,8 @@ margin-bottom: .25em;
 }
 
 .service{
-    max-width: 500px;
+    flex: 1;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -194,14 +195,16 @@ margin-bottom: .25em;
     .services{
      display: flex;
      max-width: 1000px;
+    justify-content: space-between;
+    gap: 40px;
      margin-left: auto;
      margin-right: auto;
     }
-
+/* 
     .service + .service{
         margin-left: 2em;
 
-    }
+    } */
 }
 
 .services{
@@ -248,6 +251,10 @@ margin-bottom: .25em;
         position: relative;
         z-index: 2;
     }
+
+    .about-me__body{
+        padding-left: 1.2em;
+    }
 }
 
 /*my work*/
@@ -266,7 +273,8 @@ margin-bottom: .25em;
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
 
@@ -294,6 +302,19 @@ margin-bottom: .25em;
     transform: scale(1.2);
     opacity: .75;
 }
+
+@media screen and (max-width: 1100px) {
+    .portfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio{
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /*footer*/
 .footer{
