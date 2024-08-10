@@ -283,6 +283,7 @@ margin-bottom: .25em;
 .portfolio__item{
     /* background: var(--clr-accent); */
     overflow: hidden;
+    height: 175px;
 }
 
 .portfolio__img{
